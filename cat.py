@@ -16,3 +16,19 @@ class Cat: # our cat entity
     def sleep(self):
         print(f"{self.name} is sleeping")
         self.energy +=10
+    def eat(self):
+        print(f"{self.name} is eating some good food")
+        self.energy+=10
+        self.weight+=2
+    def pet(self):
+        print(f"You pet {self.name} for a while")
+        self.intelligence += 1
+        self.energy -= 5
+    def status(self):
+        print("Name:",self.name)
+        print("Colour:",self.colour)
+        print("Age:",self.age)
+        print("Energy:",self.energy)
+        print("Intelligence:",self.intelligence)
+        print("Weight:",self.weight)
+   
